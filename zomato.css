@@ -1,0 +1,380 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-y: hidden; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.innerBlock {
+    margin-left: 50px;
+    margin-top: 0px;
+
+    padding: 0px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.mainHeading {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font: normal normal bold 36px/55px Poppins;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    opacity: 1;
+
+
+
+}
+
+#main-logo {
+    width: 38px;
+    height: 38px;
+    margin: 19px 740px 19px 0;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    color: #eb2929;
+}
+
+#loginButton {
+    margin: 2px 15px 0px 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+
+#btn {
+    height: 30px;
+    width: 150px;
+    font-family: Poppins;
+    opacity: 1;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: #ce0505;
+    border: solid 2px white;
+    border-radius: 3px;
+
+}
+
+#btn1 {
+    height: 30px;
+    width: 60px;
+    font-family: Poppins;
+    opacity: 1;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: #ce0505;
+    border:  2px white;
+    
+}
+
+#btn:hover {
+    color: black;
+    -ms-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+    color: white;
+    border-radius: 3px;
+
+}
+#btn1:hover{
+    color: white;
+    -ms-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+    border-radius: 3px;
+}
+
+#createAccBtn {
+
+    margin: 2px 15px 0px 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    height: 200px;
+
+
+
+}
+
+#flex00 {
+    text-align: center;
+    display: inline-flex;
+    margin-left: 144px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+
+}
+
+#header {
+    /* display: inline-flex; */
+    height: 65px;
+    padding-left: 50px;
+    width: 100%;
+    background-color: #ce0505;
+}
+
+#toSeperateDiv {
+    padding-left: 15px;
+}
+
+
+.filters {
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    min-width: 250px;
+    height: 500px;
+}
+
+.chooseFilters, small {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.chooseFilters {
+    display: inline-block;
+    width: 290px;
+    padding-right: 5%;
+
+}
+
+.chooseFilters:hover {
+    -ms-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+}
+
+.filterHeading {
+    padding: 4px;
+    left: 139px;
+    width: 55px;
+    height: 25px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.selectOptions {
+    padding: 7px;
+    width: 106px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.selectDropdown {
+    width: 208px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px #8c96ab;
+    margin-top: 10px;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.cookingStyles {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 0px;
+}
+
+.checkbox-items {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+
+.filteredItemsByUser {
+    vertical-align: top;
+    display: inline-block;
+    width: 68%;
+}
+
+.verticle {
+    vertical-align: top;
+}
+
+
+
+.page-Navigation {
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: 0px;
+
+}
+
+.page-Navigation a {
+    color: gray;
+    float: left;
+    padding: 1px 9px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.anchors:hover{
+    background-color: gray;
+    color: black;
+    
+  
+}
+.Item {
+    width: 100%;
+    height: 220px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.Item:hover {
+    -ms-transform: scale(0.2);
+    /* IE 9 */
+    -webkit-transform: scale(0.2);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.itemsChoosen {
+    display: inline-block;
+    width: 28%;
+}
+
+
+.img {
+    margin-top: 13px;
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    margin-left: 25%;
+}
+
+.itemDescription {
+    display: inline-block;
+    width: 68%;
+}
+
+.rest-name {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rest-location {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rest-address {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.subDescription {
+    margin-left: 7%;
+}
+
+.itemType {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    
+}
